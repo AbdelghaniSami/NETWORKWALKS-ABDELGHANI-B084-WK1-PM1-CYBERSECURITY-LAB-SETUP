@@ -31,6 +31,8 @@ The goal is to prepare a virtual environment for practicing cybersecurity fundam
 
 ## 3. Lab Architecture
 
+1. Lab Setup Overview
+
 ```text
 Arch Linux Host
       |
@@ -65,7 +67,7 @@ In VirtualBox, create or configure the NAT Network according to the assignment r
 
 Verify the network settings before proceeding.
 
-
+2. VirtualBox Network Settings
 
 ### Step 3 — Import and Configure Kali Linux
 
@@ -86,6 +88,8 @@ ip route
 
 Confirm the assigned address matches the assignment requirements before marking this step complete.
 
+3. Kali Linux
+
 ### Step 4 — Verify Connectivity
 
 From the Kali terminal, run:
@@ -96,6 +100,10 @@ getent hosts kali.org
 ```
 
 These checks help verify IP connectivity and DNS resolution. Record the results and investigate any failures.
+
+
+3. Kali Linux
+
 
 ### Step 5 — Verify the Shared Folder
 
