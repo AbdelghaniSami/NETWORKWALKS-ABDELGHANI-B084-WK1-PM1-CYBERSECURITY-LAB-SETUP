@@ -1,4 +1,4 @@
-# # WK1-PM1 — Cybersecurity Lab Setup
+# WK1-PM1 — Cybersecurity Lab Setup
 
 **Program:** Networkwalks Cybersecurity Internship  
 **Project:** Week 1 — Project Module 1  
@@ -31,7 +31,7 @@ The goal is to prepare a virtual environment for practicing cybersecurity fundam
 
 ## 3. Lab Architecture
 
-1. Lab Setup Overview
+1-screenshot-title-image.png
 
 ```text
 Arch Linux Host
@@ -67,7 +67,7 @@ In VirtualBox, create or configure the NAT Network according to the assignment r
 
 Verify the network settings before proceeding.
 
-2. VirtualBox Network Settings
+2-screenshot-network-settings-1.png
 
 ### Step 3 — Import and Configure Kali Linux
 
@@ -88,7 +88,7 @@ ip route
 
 Confirm the assigned address matches the assignment requirements before marking this step complete.
 
-3. Kali Linux
+4-screenshot-kali-network-settings.png
 
 ### Step 4 — Verify Connectivity
 
@@ -102,7 +102,7 @@ getent hosts kali.org
 These checks help verify IP connectivity and DNS resolution. Record the results and investigate any failures.
 
 
-3. Kali Linux
+3-screenshot-kali-linux.png
 
 
 ### Step 5 — Verify the Shared Folder
